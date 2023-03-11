@@ -1,0 +1,33 @@
+name: pinkPanther 
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - nvidia
+dependencies:
+  - python==3.9
+  - ipykernel
+  - r-essentials
+  - r-pheatmap
+  - pip
+  - clang
+  - hdf5
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
+  - pip:
+    - scikit-learn
+    - numpy==1.23.5
+    - scanpy>=1.9.1
+    - scikit-misc
+    - python-igraph
+    - leidenalg
+    - numba==0.53
+    - scvi-tools
+    - jupyterlab
+    - pybiomart
+    - pymde
+    - harmonypy
+    - commentjson
+    - pycaret
